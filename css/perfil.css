@@ -3,20 +3,17 @@
 section{
 	background-color:#3AA5D1;
 	padding-top: 5%;
-	height: 1100px;
 }
 
 .bg-box{ /*Caja blanca del background*/
 	background-color: white;
-	height: 970px;
 	width: 90%;
 }
 
 /*Perfil*/
 
 img{
-	width: 80%;
-	margin-left: -3.5%;
+	width: 100%;
 }
 
 .input-group{
@@ -62,8 +59,7 @@ label{
 
 .nav {
     left:50%;
-    margin-left:-225px;
-    top:320px;
+    margin-left:-180px;
     position:absolute;
 }
 
@@ -82,7 +78,7 @@ label{
     border-radius:4px;
     border:1px solid #9ED727;
     margin-top:20px;
-    width:330px;
+    width:350px;
     display:block;
     position:static;
     box-shadow:none;
@@ -128,10 +124,26 @@ footer {
      background: -webkit-linear-gradient(#E9E9E9, gray);
 }
 footer *{
-    color: dimgray ;
+    color: #424242;
 }
 footer img{
     padding-top: 8%;
     padding-right: 3%;
     width: 10%;
 }
+
+/*Espacio extra*/
+
+.space{
+	padding-top: 10%;
+}
+
+
+@media screen and (max-width: 992px) {
+  p {
+    font-size: 100%;
+  }}
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 95%;
+  }}
